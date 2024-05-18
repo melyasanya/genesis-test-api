@@ -7,4 +7,4 @@ services:
     ports:
       - "3001:3001"
     environment:
-      - DB_HOST=mongodb+srv://Oleksandr:WLcxWAmNcDUfoeQ5@cluster0.ko7qb70.mongodb.net/UserEmails?retryWrites=true&w=majority&appName=Cluster0
+      - DB_HOST=${DB_HOST}
